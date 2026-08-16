@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int P,C,M,T,A;
+    printf("enter marks of maths :-");
+    scanf("%d",&M);
+    printf("\nnenter marks of chemistry :-");
+    scanf("%d",&C);
+    printf("\nnenter marks of physics :-");
+    scanf("%d",&P);
+    T=P+C+M;
+    printf("total marks is %d",T);
+    A=(P+C+M)/3;
+    printf("\naverage marks is %d",A);
+
+    return 0;
+}
