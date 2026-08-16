@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float A, H, L;
+    
+    printf("ENTER THE VALUE of height :- ");
+    scanf("%f", &H);
+    
+    printf("\nenter the value of length :- ");
+    scanf("%f", &L);
+    
+    A = (H * L) / 2;
+    printf("area is %f", A);
+    
+    return 0;
+}
