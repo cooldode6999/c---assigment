@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int bytes,KB,MB;
+    printf("enter the bytes");
+    scanf("%d",&bytes);
+    KB=bytes/1000;
+    printf("%dbytes=%dKB",bytes,KB);
+
+
+    printf("\nenter the bytes");
+    scanf("%d",&bytes);
+    MB=bytes/1000000;
+    printf("%dbytes=%dMB",bytes,MB);
+
+
+
+
+
+
+    return 0;
+}
