@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    float P, R, N, I;
+    
+    printf("enter the value of P");
+    scanf("%f", &P);
+    
+    printf("\nnenter the value of R");
+    scanf("%f", &R);
+    
+    printf("\nnenter the value of N");
+    scanf("%f", &N);
+    
+    I = P * R * N / 100;
+    printf("interest is %f", I);
+    
+    return 0;
+}
