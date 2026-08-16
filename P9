@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int dollar,pound;
+    printf("enter dollar");
+    scanf("%d",&dollar);
+    pound=(70*dollar)/48;
+    printf("%dpound=%ddollar",pound,dollar);
+    return 0;
+}
