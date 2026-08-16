@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    float NS, GS;
+
+    printf("ENTER THE VALUE OF gross sales :- ");
+    scanf("%f", &GS);
+    
+    NS = GS - (GS) / 10;
+    printf("net sales is %f", NS);
+
+    return 0;
+}
