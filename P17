@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float A,R;
+    
+    printf("ENTER THE VALUE OF RADIUS :- ");
+    scanf("%f",&R);
+    A=(22/7)*R*R;
+    printf("area is %f",A);
+    
+    return 0;
+}
