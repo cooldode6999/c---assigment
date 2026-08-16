@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, s;
+    
+    printf("enter the value of a");
+    scanf("%d", &a);
+    
+    printf("\nenter the value of b");
+    scanf("%d", &b);
+    
+    // Swapping logic using temporary variable 's'
+    s = a;
+    a = b;
+    b = s;
+    
+    printf("a=%d", a);
+    printf("\nb=%d", b);
+    
+    return 0;
+}
