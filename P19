@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float D, A, GS, NS;
+
+    printf("ENTER THE VALUE OF gross salary :- ");
+    scanf("%f", &GS);
+
+    A = GS / 10;
+    D = (GS * 3) / 100;
+    NS = GS + A - D;
+
+    printf("net salary is %f", NS);
+
+    return 0;
+}
