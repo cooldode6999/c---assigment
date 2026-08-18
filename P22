@@ -10,7 +10,6 @@ int main()
     printf("\nenter the value of b");
     scanf("%d", &b);
     
-    // Swapping logic using temporary variable 's'
     s = a;
     a = b;
     b = s;
