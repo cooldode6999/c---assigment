@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // Variable declaration
     float sub1, sub2, sub3;
     float total, average;
     printf("Enter the marks for Subject 1: ");
